@@ -83,6 +83,7 @@ class QSBK:
 				nowPage+=1
 				del self.stories[0]
 				self.getOneStory(pageItems,nowPage)
+				
 
 if __name__=="__main__":
 	spider=QSBK()
